@@ -1,0 +1,29 @@
+.calculator-wrapper {
+  width: 400px; 
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#display {
+  font-family: monospace;
+  background-color: #ffffff;
+  padding: 20px;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2$;
+}
+
+button {
+  width: 24.5%;
+  padding:15px;
+  font-size: 20px;
+  background-color: #d8d9db;
+  border  
+}
