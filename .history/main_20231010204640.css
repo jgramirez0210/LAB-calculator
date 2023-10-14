@@ -1,0 +1,20 @@
+.calculator-wrapper {
+  width: 400px; 
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#button {
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+#display {
+  grid-column: span 4; /* This will make the display span all 4 columns */
+  background-color: #eee;
+  font-size: 1.5em;
+  font-family: monospace;
+}
